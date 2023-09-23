@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+    --secondary-font :'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(240, 235, 235);
+}
+header {
+    max-width: 1700px;
+    /* background-color: rgb(100, 33, 33); */
+
+}
+.container {
+    background-color: #fff;
+    max-width: 1450px;
+    margin: 50px auto;
+    padding: 50px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin: 34px 0 94px 255px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    color: #646464;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 40px 0 350px;
+    text-transform: uppercase;
+}
+nav button {
+    border: none;
+    color: #FFF;
+    border-radius: 15px 0px;
+    background: #CAA892;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 05PX 19PX;
+    text-transform: capitalize;
+}
+/*================ NAV BAR CSS END ==============*/
+.hero-area {
+    display: flex;
+}
+.hero-text {
+    gap: 55px;
+}
+
+.hero-text h4 {
+    color: #646464;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-text h2 {
+    font-family: var(--secondary-font);
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 78px;
+    margin-block: 12px 23px;
+    max-width: 552px;
+}
+.hero-text p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 610px;
+    margin-bottom: 28px;
+}
+.hero-text button {
+    border: none;
+    border-radius: 20px 0px;
+    background: #37806B;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8PX 28PX;
+    text-transform: capitalize;
+}
+.border-div {
+    width: 585px;
+    height: 511px;
+    border-radius: 125px 0px;
+    border: 2px solid #B0855B;
+    margin: 33px 0 0 35px;
+    position: relative;
+}
+.hero-img img {
+    border-radius: 125px 0;
+    top: 0;
+    right: 34px;
+    max-width: 585px;
+    position: absolute;
+    top: 270px;
+    right: 260px;
+}
+.pattern-icon {
+    margin: 434px 40px 0 7px;
+}
